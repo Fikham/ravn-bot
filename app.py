@@ -14,8 +14,8 @@ from eksekutor import *
 
 app = Flask(__name__)
 
-channel_secret      = os.getenv('LINE_CHANNEL_SECRET', None)
-channel_access_token= os.getenv('LINE_CHANNEL_ACCESS_TOKEN', None)
+channel_secret      = os.getenv('34beb3c1864393ec04b41fb89e9e748b', None)
+channel_access_token= os.getenv('3FleT/GGZbr22Wy0UoF5wKRIpX1OFYnpvfmIi9jveZGuxIwIN3/FMZxX6aOJaoniB819fV6Xw4rHRoK34om/aOxaGeCpbcDkty37MD2eaV9MuDr7/MGvWCa3wZF2HMODDX073wLApgUjwEiLw4L01gdB04t89/1O/w1cDnyilFU=', None)
 line_bot_api        = LineBotApi(channel_access_token)
 handler             = WebhookHandler(channel_secret)
 
